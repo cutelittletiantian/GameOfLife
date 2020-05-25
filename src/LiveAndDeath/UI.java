@@ -39,8 +39,8 @@ public class UI {
 
         frame.setResizable(false);
         frame.setTitle(title);
-        panel.setVisible(true);;
-        frame.setVisible(true);;
+        panel.setVisible(true);
+        frame.setVisible(true);
     }
 
     public void show(Map m) throws InterruptedException {
@@ -58,12 +58,5 @@ public class UI {
         }
         panel.setVisible(true);;
         Thread.sleep(500);
-    }
-
-    private void clear() {
-        Map map = new Map();
-        for (int i = 0; i < map.getLen(); i++) {
-            System.out.println();
-        }
     }
 }

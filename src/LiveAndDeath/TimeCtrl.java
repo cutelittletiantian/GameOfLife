@@ -12,6 +12,12 @@ public class TimeCtrl {
     }
     public void run() {
         ui.init(map);
+        for (int i = 0; i < map.getLen(); i++) {
+            for (int j = 0; j < map.getLen(); j++) {
+                System.out.print(map.get(i, j));
+            }
+            System.out.println();
+        }
         try {
             while(true){
                 ui.show(map);

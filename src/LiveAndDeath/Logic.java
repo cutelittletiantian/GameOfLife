@@ -5,7 +5,7 @@ public class Logic {
     // 更新map数据
     public void update(Map map){
     	
-    	// 杜文添增补：临时存放迭代结果
+    	// 金宇增补：临时存放迭代结果
     	Map nextMap = new Map();
     	
     	int neighbor=0;
