@@ -61,6 +61,5 @@ public class UI {
         }
         frame.setTitle(title+" - 第 "+times+" 次迭代");
         panel.setVisible(true);
-        Thread.sleep(500);
     }
 }

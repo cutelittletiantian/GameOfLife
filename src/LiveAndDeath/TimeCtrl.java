@@ -4,19 +4,23 @@ public class TimeCtrl {
     UI ui = new UI();
     Map map;
     Logic logic = new Logic();
-    TimeCtrl(){
+
+    TimeCtrl() {
         map = new Map(0.5);
     }
-    TimeCtrl(double probability){
+
+    TimeCtrl(double probability) {
         map = new Map(probability);
     }
+
     public void run() {
         ui.init(map);
 
         try {
-            while(true){
+            while (true) {
                 ui.show(map);
                 logic.update(map);
+                Thread.sleep(500);
             }
         } catch (Exception e) {
             System.out.println(e);

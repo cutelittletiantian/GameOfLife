@@ -55,7 +55,7 @@ public class MapTest {
 
 	@AfterClass
 	public static void tearDownAfterClass() throws Exception {
-		// Çå¿ÕÔ­ÓÐ²âÊÔÊý¾Ý
+		// ï¿½ï¿½ï¿½Ô­ï¿½Ð²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 		for(int i = 0; i < map.getLen(); i++) {
 			for(int j = 0; j < map.getLen(); j++) {
 				map.set(i, j, 0);
@@ -106,7 +106,7 @@ public class MapTest {
 
 	@After
 	public void tearDown() throws Exception {
-		// Çå¿ÕÔ­ÓÐ²âÊÔÊý¾Ý
+		// ï¿½ï¿½ï¿½Ô­ï¿½Ð²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 		for(int i = 0; i < map.getLen(); i++) {
 			for(int j = 0; j < map.getLen(); j++) {
 				map.set(i, j, 0);
@@ -118,6 +118,28 @@ public class MapTest {
 	public void testGetLen() {
 		assertEquals(50, map.getLen());
 	}
+
+	@Test
+	public void testGet1() {
+		assertNotEquals(2, map.get(1, 1));
+	}
+
+	@Test
+	public void testGet2() {
+		assertNotEquals(-1, map.get(1, 1));
+	}
+
+	
+	@Test
+	public void testGet3() {
+		assertNotEquals(-1, map.get(map.getLen()-1, map.getLen()-1));
+	}
+
+	@Test
+	public void testGet4() {
+		assertNotEquals(2, map.get(map.getLen()-1, map.getLen()-1));
+	}
+
 
 	@Test
 	public void testGetNeighbor() {
@@ -137,5 +159,11 @@ public class MapTest {
 		assertEquals(1, map.getNeighbor(0, 0));
 		assertEquals(3, map.getNeighbor(49, 0));
 		assertEquals(2, map.getNeighbor(0, 49));
+	}
+
+	
+	@Test
+	public void test_this_test_will_faile() {
+		assertEquals(-1, map.get(map.getLen()-1, map.getLen()-1));
 	}
 }
