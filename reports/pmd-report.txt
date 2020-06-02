@@ -1,0 +1,398 @@
+src/LiveAndDeath/Logic.java:1:	PackageCase: Package name contains upper case characters
+src/LiveAndDeath/Logic.java:1:	PackageCase: Package name contains upper case characters
+src/LiveAndDeath/Logic.java:3:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/LiveAndDeath/Logic.java:3:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/LiveAndDeath/Logic.java:3:	CommentRequired: Class comments are required
+src/LiveAndDeath/Logic.java:3:	CommentRequired: Class comments are required
+src/LiveAndDeath/Logic.java:6:	CommentRequired: Public method and constructor comments are required
+src/LiveAndDeath/Logic.java:6:	CommentRequired: Public method and constructor comments are required
+src/LiveAndDeath/Logic.java:6:	MethodArgumentCouldBeFinal: Parameter 'map' is not assigned and could be declared final
+src/LiveAndDeath/Logic.java:6:	MethodArgumentCouldBeFinal: Parameter 'map' is not assigned and could be declared final
+src/LiveAndDeath/Logic.java:9:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'nextMap' (lines '9'-'36').
+src/LiveAndDeath/Logic.java:9:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'nextMap' (lines '9'-'36').
+src/LiveAndDeath/Logic.java:9:	LocalVariableCouldBeFinal: Local variable 'nextMap' could be declared final
+src/LiveAndDeath/Logic.java:9:	LocalVariableCouldBeFinal: Local variable 'nextMap' could be declared final
+src/LiveAndDeath/Logic.java:9:	UseConcurrentHashMap: If you run in Java5 or newer and have concurrent access, you should use the ConcurrentHashMap implementation
+src/LiveAndDeath/Logic.java:9:	UseConcurrentHashMap: If you run in Java5 or newer and have concurrent access, you should use the ConcurrentHashMap implementation
+src/LiveAndDeath/Logic.java:11:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'neighbor' (lines '11'-'15').
+src/LiveAndDeath/Logic.java:11:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'neighbor' (lines '11'-'15').
+src/LiveAndDeath/Logic.java:11:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'neighbor' (lines '11'-'36').
+src/LiveAndDeath/Logic.java:11:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'neighbor' (lines '11'-'36').
+src/LiveAndDeath/Logic.java:16:	AvoidLiteralsInIfCondition: Avoid using Literals in Conditional Statements
+src/LiveAndDeath/Logic.java:16:	AvoidLiteralsInIfCondition: Avoid using Literals in Conditional Statements
+src/LiveAndDeath/Logic.java:19:	AvoidLiteralsInIfCondition: Avoid using Literals in Conditional Statements
+src/LiveAndDeath/Logic.java:19:	AvoidLiteralsInIfCondition: Avoid using Literals in Conditional Statements
+src/LiveAndDeath/Logic.java:28:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'tmpStatus' (lines '28'-'32').
+src/LiveAndDeath/Logic.java:28:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'tmpStatus' (lines '28'-'32').
+src/LiveAndDeath/Logic.java:28:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'tmpStatus' (lines '28'-'36').
+src/LiveAndDeath/Logic.java:28:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'tmpStatus' (lines '28'-'36').
+src/LiveAndDeath/LogicTest.java:1:	PackageCase: Package name contains upper case characters
+src/LiveAndDeath/LogicTest.java:1:	PackageCase: Package name contains upper case characters
+src/LiveAndDeath/LogicTest.java:11:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/LiveAndDeath/LogicTest.java:11:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/LiveAndDeath/LogicTest.java:11:	CommentRequired: Class comments are required
+src/LiveAndDeath/LogicTest.java:11:	CommentRequired: Class comments are required
+src/LiveAndDeath/LogicTest.java:13:	CommentRequired: Field comments are required
+src/LiveAndDeath/LogicTest.java:13:	CommentRequired: Field comments are required
+src/LiveAndDeath/LogicTest.java:13:	UseConcurrentHashMap: If you run in Java5 or newer and have concurrent access, you should use the ConcurrentHashMap implementation
+src/LiveAndDeath/LogicTest.java:13:	UseConcurrentHashMap: If you run in Java5 or newer and have concurrent access, you should use the ConcurrentHashMap implementation
+src/LiveAndDeath/LogicTest.java:14:	CommentRequired: Field comments are required
+src/LiveAndDeath/LogicTest.java:14:	CommentRequired: Field comments are required
+src/LiveAndDeath/LogicTest.java:17:	CommentRequired: Public method and constructor comments are required
+src/LiveAndDeath/LogicTest.java:17:	CommentRequired: Public method and constructor comments are required
+src/LiveAndDeath/LogicTest.java:17:	SignatureDeclareThrowsException: A method/constructor should not explicitly throw java.lang.Exception
+src/LiveAndDeath/LogicTest.java:17:	SignatureDeclareThrowsException: A method/constructor should not explicitly throw java.lang.Exception
+src/LiveAndDeath/LogicTest.java:70:	CommentRequired: Public method and constructor comments are required
+src/LiveAndDeath/LogicTest.java:70:	CommentRequired: Public method and constructor comments are required
+src/LiveAndDeath/LogicTest.java:70:	SignatureDeclareThrowsException: A method/constructor should not explicitly throw java.lang.Exception
+src/LiveAndDeath/LogicTest.java:70:	SignatureDeclareThrowsException: A method/constructor should not explicitly throw java.lang.Exception
+src/LiveAndDeath/LogicTest.java:79:	CommentRequired: Public method and constructor comments are required
+src/LiveAndDeath/LogicTest.java:79:	CommentRequired: Public method and constructor comments are required
+src/LiveAndDeath/LogicTest.java:132:	CommentRequired: Public method and constructor comments are required
+src/LiveAndDeath/LogicTest.java:132:	CommentRequired: Public method and constructor comments are required
+src/LiveAndDeath/LogicTest.java:141:	CommentRequired: Public method and constructor comments are required
+src/LiveAndDeath/LogicTest.java:141:	CommentRequired: Public method and constructor comments are required
+src/LiveAndDeath/LogicTest.java:141:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/LiveAndDeath/LogicTest.java:141:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/LiveAndDeath/LogicTest.java:142:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/LiveAndDeath/LogicTest.java:142:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/LiveAndDeath/LogicTest.java:143:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/LiveAndDeath/LogicTest.java:143:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/LiveAndDeath/LogicTest.java:144:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/LiveAndDeath/LogicTest.java:144:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/LiveAndDeath/LogicTest.java:145:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/LiveAndDeath/LogicTest.java:145:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/LiveAndDeath/LogicTest.java:146:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/LiveAndDeath/LogicTest.java:146:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/LiveAndDeath/LogicTest.java:147:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/LiveAndDeath/LogicTest.java:147:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/LiveAndDeath/LogicTest.java:148:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/LiveAndDeath/LogicTest.java:148:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/LiveAndDeath/LogicTest.java:149:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/LiveAndDeath/LogicTest.java:149:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/LiveAndDeath/Main.java:1:	PackageCase: Package name contains upper case characters
+src/LiveAndDeath/Main.java:1:	PackageCase: Package name contains upper case characters
+src/LiveAndDeath/Main.java:5:	CommentRequired: Class comments are required
+src/LiveAndDeath/Main.java:5:	CommentRequired: Class comments are required
+src/LiveAndDeath/Main.java:5:	ShortClassName: Avoid short class names like Main
+src/LiveAndDeath/Main.java:5:	ShortClassName: Avoid short class names like Main
+src/LiveAndDeath/Main.java:5:	UseUtilityClass: All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/LiveAndDeath/Main.java:5:	UseUtilityClass: All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/LiveAndDeath/Main.java:7:	CommentRequired: Public method and constructor comments are required
+src/LiveAndDeath/Main.java:7:	CommentRequired: Public method and constructor comments are required
+src/LiveAndDeath/Main.java:7:	MethodArgumentCouldBeFinal: Parameter 'args' is not assigned and could be declared final
+src/LiveAndDeath/Main.java:7:	MethodArgumentCouldBeFinal: Parameter 'args' is not assigned and could be declared final
+src/LiveAndDeath/Main.java:8:	SystemPrintln: System.out.println is used
+src/LiveAndDeath/Main.java:8:	SystemPrintln: System.out.println is used
+src/LiveAndDeath/Main.java:9:	CloseResource: Ensure that resources like this Scanner object are closed after use
+src/LiveAndDeath/Main.java:9:	CloseResource: Ensure that resources like this Scanner object are closed after use
+src/LiveAndDeath/Main.java:9:	LocalVariableCouldBeFinal: Local variable 'scan' could be declared final
+src/LiveAndDeath/Main.java:9:	LocalVariableCouldBeFinal: Local variable 'scan' could be declared final
+src/LiveAndDeath/Main.java:9:	UnnecessaryFullyQualifiedName: Unnecessary use of fully qualified name 'java.util.Scanner' due to existing import 'java.util.Scanner'
+src/LiveAndDeath/Main.java:9:	UnnecessaryFullyQualifiedName: Unnecessary use of fully qualified name 'java.util.Scanner' due to existing import 'java.util.Scanner'
+src/LiveAndDeath/Main.java:10:	ShortVariable: Avoid variables with short names like i
+src/LiveAndDeath/Main.java:10:	ShortVariable: Avoid variables with short names like i
+src/LiveAndDeath/Main.java:13:	LocalVariableCouldBeFinal: Local variable 'timeCtrl' could be declared final
+src/LiveAndDeath/Main.java:13:	LocalVariableCouldBeFinal: Local variable 'timeCtrl' could be declared final
+src/LiveAndDeath/Map.java:1:	PackageCase: Package name contains upper case characters
+src/LiveAndDeath/Map.java:1:	PackageCase: Package name contains upper case characters
+src/LiveAndDeath/Map.java:4:	CommentRequired: Class comments are required
+src/LiveAndDeath/Map.java:4:	CommentRequired: Class comments are required
+src/LiveAndDeath/Map.java:4:	ShortClassName: Avoid short class names like Map
+src/LiveAndDeath/Map.java:4:	ShortClassName: Avoid short class names like Map
+src/LiveAndDeath/Map.java:5:	CommentRequired: Field comments are required
+src/LiveAndDeath/Map.java:5:	CommentRequired: Field comments are required
+src/LiveAndDeath/Map.java:6:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/LiveAndDeath/Map.java:6:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/LiveAndDeath/Map.java:6:	CommentRequired: Field comments are required
+src/LiveAndDeath/Map.java:6:	CommentRequired: Field comments are required
+src/LiveAndDeath/Map.java:8:	CommentRequired: Public method and constructor comments are required
+src/LiveAndDeath/Map.java:8:	CommentRequired: Public method and constructor comments are required
+src/LiveAndDeath/Map.java:9:	ConstructorCallsOverridableMethod: Overridable method 'init' called during object construction
+src/LiveAndDeath/Map.java:9:	ConstructorCallsOverridableMethod: Overridable method 'init' called during object construction
+src/LiveAndDeath/Map.java:12:	CommentRequired: Public method and constructor comments are required
+src/LiveAndDeath/Map.java:12:	CommentRequired: Public method and constructor comments are required
+src/LiveAndDeath/Map.java:12:	MethodArgumentCouldBeFinal: Parameter 'i' is not assigned and could be declared final
+src/LiveAndDeath/Map.java:12:	MethodArgumentCouldBeFinal: Parameter 'i' is not assigned and could be declared final
+src/LiveAndDeath/Map.java:12:	ShortVariable: Avoid variables with short names like i
+src/LiveAndDeath/Map.java:12:	ShortVariable: Avoid variables with short names like i
+src/LiveAndDeath/Map.java:17:	CommentRequired: Public method and constructor comments are required
+src/LiveAndDeath/Map.java:17:	CommentRequired: Public method and constructor comments are required
+src/LiveAndDeath/Map.java:17:	MethodArgumentCouldBeFinal: Parameter 'model' is not assigned and could be declared final
+src/LiveAndDeath/Map.java:17:	MethodArgumentCouldBeFinal: Parameter 'model' is not assigned and could be declared final
+src/LiveAndDeath/Map.java:90:	CommentRequired: Public method and constructor comments are required
+src/LiveAndDeath/Map.java:90:	CommentRequired: Public method and constructor comments are required
+src/LiveAndDeath/Map.java:90:	MethodArgumentCouldBeFinal: Parameter 'i' is not assigned and could be declared final
+src/LiveAndDeath/Map.java:90:	MethodArgumentCouldBeFinal: Parameter 'i' is not assigned and could be declared final
+src/LiveAndDeath/Map.java:90:	MethodArgumentCouldBeFinal: Parameter 'j' is not assigned and could be declared final
+src/LiveAndDeath/Map.java:90:	MethodArgumentCouldBeFinal: Parameter 'j' is not assigned and could be declared final
+src/LiveAndDeath/Map.java:90:	MethodArgumentCouldBeFinal: Parameter 't' is not assigned and could be declared final
+src/LiveAndDeath/Map.java:90:	MethodArgumentCouldBeFinal: Parameter 't' is not assigned and could be declared final
+src/LiveAndDeath/Map.java:90:	ShortVariable: Avoid variables with short names like i
+src/LiveAndDeath/Map.java:90:	ShortVariable: Avoid variables with short names like i
+src/LiveAndDeath/Map.java:90:	ShortVariable: Avoid variables with short names like j
+src/LiveAndDeath/Map.java:90:	ShortVariable: Avoid variables with short names like j
+src/LiveAndDeath/Map.java:90:	ShortVariable: Avoid variables with short names like t
+src/LiveAndDeath/Map.java:90:	ShortVariable: Avoid variables with short names like t
+src/LiveAndDeath/Map.java:95:	CommentRequired: Public method and constructor comments are required
+src/LiveAndDeath/Map.java:95:	CommentRequired: Public method and constructor comments are required
+src/LiveAndDeath/Map.java:95:	MethodArgumentCouldBeFinal: Parameter 'i' is not assigned and could be declared final
+src/LiveAndDeath/Map.java:95:	MethodArgumentCouldBeFinal: Parameter 'i' is not assigned and could be declared final
+src/LiveAndDeath/Map.java:95:	MethodArgumentCouldBeFinal: Parameter 'j' is not assigned and could be declared final
+src/LiveAndDeath/Map.java:95:	MethodArgumentCouldBeFinal: Parameter 'j' is not assigned and could be declared final
+src/LiveAndDeath/Map.java:95:	ShortVariable: Avoid variables with short names like i
+src/LiveAndDeath/Map.java:95:	ShortVariable: Avoid variables with short names like i
+src/LiveAndDeath/Map.java:95:	ShortVariable: Avoid variables with short names like j
+src/LiveAndDeath/Map.java:95:	ShortVariable: Avoid variables with short names like j
+src/LiveAndDeath/Map.java:99:	CommentRequired: Public method and constructor comments are required
+src/LiveAndDeath/Map.java:99:	CommentRequired: Public method and constructor comments are required
+src/LiveAndDeath/Map.java:99:	CyclomaticComplexity: The method 'getNeighbor(int, int)' has a cyclomatic complexity of 10.
+src/LiveAndDeath/Map.java:99:	CyclomaticComplexity: The method 'getNeighbor(int, int)' has a cyclomatic complexity of 10.
+src/LiveAndDeath/Map.java:99:	MethodArgumentCouldBeFinal: Parameter 'i' is not assigned and could be declared final
+src/LiveAndDeath/Map.java:99:	MethodArgumentCouldBeFinal: Parameter 'i' is not assigned and could be declared final
+src/LiveAndDeath/Map.java:99:	MethodArgumentCouldBeFinal: Parameter 'j' is not assigned and could be declared final
+src/LiveAndDeath/Map.java:99:	MethodArgumentCouldBeFinal: Parameter 'j' is not assigned and could be declared final
+src/LiveAndDeath/Map.java:99:	ShortVariable: Avoid variables with short names like i
+src/LiveAndDeath/Map.java:99:	ShortVariable: Avoid variables with short names like i
+src/LiveAndDeath/Map.java:99:	ShortVariable: Avoid variables with short names like j
+src/LiveAndDeath/Map.java:99:	ShortVariable: Avoid variables with short names like j
+src/LiveAndDeath/Map.java:100:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'neighbor' (lines '100'-'109').
+src/LiveAndDeath/Map.java:100:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'neighbor' (lines '100'-'109').
+src/LiveAndDeath/Map.java:104:	CollapsibleIfStatements: These nested if statements could be combined
+src/LiveAndDeath/Map.java:104:	CollapsibleIfStatements: These nested if statements could be combined
+src/LiveAndDeath/Map.java:105:	EmptyIfStmt: Avoid empty if statements
+src/LiveAndDeath/Map.java:105:	EmptyIfStmt: Avoid empty if statements
+src/LiveAndDeath/Map.java:108:	AvoidDeeplyNestedIfStmts: Deeply nested if..then statements are hard to read
+src/LiveAndDeath/Map.java:108:	AvoidDeeplyNestedIfStmts: Deeply nested if..then statements are hard to read
+src/LiveAndDeath/Map.java:109:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'neighbor' (lines '109'-'109').
+src/LiveAndDeath/Map.java:109:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'neighbor' (lines '109'-'109').
+src/LiveAndDeath/MapTest.java:1:	PackageCase: Package name contains upper case characters
+src/LiveAndDeath/MapTest.java:1:	PackageCase: Package name contains upper case characters
+src/LiveAndDeath/MapTest.java:11:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/LiveAndDeath/MapTest.java:11:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/LiveAndDeath/MapTest.java:11:	CommentRequired: Class comments are required
+src/LiveAndDeath/MapTest.java:11:	CommentRequired: Class comments are required
+src/LiveAndDeath/MapTest.java:13:	CommentRequired: Field comments are required
+src/LiveAndDeath/MapTest.java:13:	CommentRequired: Field comments are required
+src/LiveAndDeath/MapTest.java:13:	UseConcurrentHashMap: If you run in Java5 or newer and have concurrent access, you should use the ConcurrentHashMap implementation
+src/LiveAndDeath/MapTest.java:13:	UseConcurrentHashMap: If you run in Java5 or newer and have concurrent access, you should use the ConcurrentHashMap implementation
+src/LiveAndDeath/MapTest.java:16:	CommentRequired: Public method and constructor comments are required
+src/LiveAndDeath/MapTest.java:16:	CommentRequired: Public method and constructor comments are required
+src/LiveAndDeath/MapTest.java:16:	SignatureDeclareThrowsException: A method/constructor should not explicitly throw java.lang.Exception
+src/LiveAndDeath/MapTest.java:16:	SignatureDeclareThrowsException: A method/constructor should not explicitly throw java.lang.Exception
+src/LiveAndDeath/MapTest.java:57:	CommentRequired: Public method and constructor comments are required
+src/LiveAndDeath/MapTest.java:57:	CommentRequired: Public method and constructor comments are required
+src/LiveAndDeath/MapTest.java:57:	SignatureDeclareThrowsException: A method/constructor should not explicitly throw java.lang.Exception
+src/LiveAndDeath/MapTest.java:57:	SignatureDeclareThrowsException: A method/constructor should not explicitly throw java.lang.Exception
+src/LiveAndDeath/MapTest.java:67:	CommentRequired: Public method and constructor comments are required
+src/LiveAndDeath/MapTest.java:67:	CommentRequired: Public method and constructor comments are required
+src/LiveAndDeath/MapTest.java:108:	CommentRequired: Public method and constructor comments are required
+src/LiveAndDeath/MapTest.java:108:	CommentRequired: Public method and constructor comments are required
+src/LiveAndDeath/MapTest.java:118:	CommentRequired: Public method and constructor comments are required
+src/LiveAndDeath/MapTest.java:118:	CommentRequired: Public method and constructor comments are required
+src/LiveAndDeath/MapTest.java:119:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/LiveAndDeath/MapTest.java:119:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/LiveAndDeath/MapTest.java:123:	CommentRequired: Public method and constructor comments are required
+src/LiveAndDeath/MapTest.java:123:	CommentRequired: Public method and constructor comments are required
+src/LiveAndDeath/MapTest.java:123:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/LiveAndDeath/MapTest.java:123:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/LiveAndDeath/MapTest.java:124:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/LiveAndDeath/MapTest.java:124:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/LiveAndDeath/MapTest.java:125:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/LiveAndDeath/MapTest.java:125:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/LiveAndDeath/MapTest.java:126:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/LiveAndDeath/MapTest.java:126:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/LiveAndDeath/MapTest.java:127:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/LiveAndDeath/MapTest.java:127:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/LiveAndDeath/MapTest.java:128:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/LiveAndDeath/MapTest.java:128:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/LiveAndDeath/MapTest.java:129:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/LiveAndDeath/MapTest.java:129:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/LiveAndDeath/MapTest.java:130:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/LiveAndDeath/MapTest.java:130:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/LiveAndDeath/MapTest.java:131:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/LiveAndDeath/MapTest.java:131:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/LiveAndDeath/MapTest.java:132:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/LiveAndDeath/MapTest.java:132:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/LiveAndDeath/MapTest.java:133:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/LiveAndDeath/MapTest.java:133:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/LiveAndDeath/MapTest.java:134:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/LiveAndDeath/MapTest.java:134:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/LiveAndDeath/MapTest.java:135:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/LiveAndDeath/MapTest.java:135:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/LiveAndDeath/MapTest.java:136:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/LiveAndDeath/MapTest.java:136:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/LiveAndDeath/MapTest.java:137:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/LiveAndDeath/MapTest.java:137:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/LiveAndDeath/MapTest.java:138:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/LiveAndDeath/MapTest.java:138:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/LiveAndDeath/MapTest.java:139:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/LiveAndDeath/MapTest.java:139:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/LiveAndDeath/TimeCtrl.java:1:	PackageCase: Package name contains upper case characters
+src/LiveAndDeath/TimeCtrl.java:1:	PackageCase: Package name contains upper case characters
+src/LiveAndDeath/TimeCtrl.java:3:	CommentRequired: Class comments are required
+src/LiveAndDeath/TimeCtrl.java:3:	CommentRequired: Class comments are required
+src/LiveAndDeath/TimeCtrl.java:4:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/LiveAndDeath/TimeCtrl.java:4:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/LiveAndDeath/TimeCtrl.java:4:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the ui field if you want a default access modifier
+src/LiveAndDeath/TimeCtrl.java:4:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the ui field if you want a default access modifier
+src/LiveAndDeath/TimeCtrl.java:4:	CommentRequired: Field comments are required
+src/LiveAndDeath/TimeCtrl.java:4:	CommentRequired: Field comments are required
+src/LiveAndDeath/TimeCtrl.java:4:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/LiveAndDeath/TimeCtrl.java:4:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/LiveAndDeath/TimeCtrl.java:4:	ShortVariable: Avoid variables with short names like ui
+src/LiveAndDeath/TimeCtrl.java:4:	ShortVariable: Avoid variables with short names like ui
+src/LiveAndDeath/TimeCtrl.java:5:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/LiveAndDeath/TimeCtrl.java:5:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/LiveAndDeath/TimeCtrl.java:5:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the map field if you want a default access modifier
+src/LiveAndDeath/TimeCtrl.java:5:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the map field if you want a default access modifier
+src/LiveAndDeath/TimeCtrl.java:5:	CommentRequired: Field comments are required
+src/LiveAndDeath/TimeCtrl.java:5:	CommentRequired: Field comments are required
+src/LiveAndDeath/TimeCtrl.java:5:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/LiveAndDeath/TimeCtrl.java:5:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/LiveAndDeath/TimeCtrl.java:6:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/LiveAndDeath/TimeCtrl.java:6:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/LiveAndDeath/TimeCtrl.java:6:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the logic field if you want a default access modifier
+src/LiveAndDeath/TimeCtrl.java:6:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the logic field if you want a default access modifier
+src/LiveAndDeath/TimeCtrl.java:6:	CommentRequired: Field comments are required
+src/LiveAndDeath/TimeCtrl.java:6:	CommentRequired: Field comments are required
+src/LiveAndDeath/TimeCtrl.java:6:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/LiveAndDeath/TimeCtrl.java:6:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/LiveAndDeath/TimeCtrl.java:7:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the TimeCtrl constructor if you want a default access modifier
+src/LiveAndDeath/TimeCtrl.java:7:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the TimeCtrl constructor if you want a default access modifier
+src/LiveAndDeath/TimeCtrl.java:10:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the TimeCtrl constructor if you want a default access modifier
+src/LiveAndDeath/TimeCtrl.java:10:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the TimeCtrl constructor if you want a default access modifier
+src/LiveAndDeath/TimeCtrl.java:10:	MethodArgumentCouldBeFinal: Parameter 'probability' is not assigned and could be declared final
+src/LiveAndDeath/TimeCtrl.java:10:	MethodArgumentCouldBeFinal: Parameter 'probability' is not assigned and could be declared final
+src/LiveAndDeath/TimeCtrl.java:13:	CommentRequired: Public method and constructor comments are required
+src/LiveAndDeath/TimeCtrl.java:13:	CommentRequired: Public method and constructor comments are required
+src/LiveAndDeath/TimeCtrl.java:21:	AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/LiveAndDeath/TimeCtrl.java:21:	AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/LiveAndDeath/TimeCtrl.java:22:	SystemPrintln: System.out.println is used
+src/LiveAndDeath/TimeCtrl.java:22:	SystemPrintln: System.out.println is used
+src/LiveAndDeath/TimeCtrl.java:23:	SystemPrintln: System.out.println is used
+src/LiveAndDeath/TimeCtrl.java:23:	SystemPrintln: System.out.println is used
+src/LiveAndDeath/UI.java:1:	PackageCase: Package name contains upper case characters
+src/LiveAndDeath/UI.java:1:	PackageCase: Package name contains upper case characters
+src/LiveAndDeath/UI.java:9:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/LiveAndDeath/UI.java:9:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/LiveAndDeath/UI.java:9:	CommentRequired: Class comments are required
+src/LiveAndDeath/UI.java:9:	CommentRequired: Class comments are required
+src/LiveAndDeath/UI.java:9:	ShortClassName: Avoid short class names like UI
+src/LiveAndDeath/UI.java:9:	ShortClassName: Avoid short class names like UI
+src/LiveAndDeath/UI.java:10:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/LiveAndDeath/UI.java:10:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/LiveAndDeath/UI.java:10:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the map field if you want a default access modifier
+src/LiveAndDeath/UI.java:10:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the map field if you want a default access modifier
+src/LiveAndDeath/UI.java:10:	CommentRequired: Field comments are required
+src/LiveAndDeath/UI.java:10:	CommentRequired: Field comments are required
+src/LiveAndDeath/UI.java:10:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/LiveAndDeath/UI.java:10:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/LiveAndDeath/UI.java:10:	UseConcurrentHashMap: If you run in Java5 or newer and have concurrent access, you should use the ConcurrentHashMap implementation
+src/LiveAndDeath/UI.java:10:	UseConcurrentHashMap: If you run in Java5 or newer and have concurrent access, you should use the ConcurrentHashMap implementation
+src/LiveAndDeath/UI.java:11:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/LiveAndDeath/UI.java:11:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/LiveAndDeath/UI.java:11:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the title field if you want a default access modifier
+src/LiveAndDeath/UI.java:11:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the title field if you want a default access modifier
+src/LiveAndDeath/UI.java:11:	CommentRequired: Field comments are required
+src/LiveAndDeath/UI.java:11:	CommentRequired: Field comments are required
+src/LiveAndDeath/UI.java:11:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/LiveAndDeath/UI.java:11:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/LiveAndDeath/UI.java:12:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/LiveAndDeath/UI.java:12:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/LiveAndDeath/UI.java:12:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the frame field if you want a default access modifier
+src/LiveAndDeath/UI.java:12:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the frame field if you want a default access modifier
+src/LiveAndDeath/UI.java:12:	CommentRequired: Field comments are required
+src/LiveAndDeath/UI.java:12:	CommentRequired: Field comments are required
+src/LiveAndDeath/UI.java:12:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/LiveAndDeath/UI.java:12:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/LiveAndDeath/UI.java:13:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/LiveAndDeath/UI.java:13:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/LiveAndDeath/UI.java:13:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the panel field if you want a default access modifier
+src/LiveAndDeath/UI.java:13:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the panel field if you want a default access modifier
+src/LiveAndDeath/UI.java:13:	CommentRequired: Field comments are required
+src/LiveAndDeath/UI.java:13:	CommentRequired: Field comments are required
+src/LiveAndDeath/UI.java:13:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/LiveAndDeath/UI.java:13:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/LiveAndDeath/UI.java:14:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/LiveAndDeath/UI.java:14:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/LiveAndDeath/UI.java:14:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the btnCell field if you want a default access modifier
+src/LiveAndDeath/UI.java:14:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the btnCell field if you want a default access modifier
+src/LiveAndDeath/UI.java:14:	CommentRequired: Field comments are required
+src/LiveAndDeath/UI.java:14:	CommentRequired: Field comments are required
+src/LiveAndDeath/UI.java:14:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/LiveAndDeath/UI.java:14:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/LiveAndDeath/UI.java:16:	CommentRequired: Public method and constructor comments are required
+src/LiveAndDeath/UI.java:16:	CommentRequired: Public method and constructor comments are required
+src/LiveAndDeath/UI.java:16:	MethodArgumentCouldBeFinal: Parameter 'm' is not assigned and could be declared final
+src/LiveAndDeath/UI.java:16:	MethodArgumentCouldBeFinal: Parameter 'm' is not assigned and could be declared final
+src/LiveAndDeath/UI.java:16:	ShortVariable: Avoid variables with short names like m
+src/LiveAndDeath/UI.java:16:	ShortVariable: Avoid variables with short names like m
+src/LiveAndDeath/UI.java:21:	LocalVariableCouldBeFinal: Local variable 'gridLayout' could be declared final
+src/LiveAndDeath/UI.java:21:	LocalVariableCouldBeFinal: Local variable 'gridLayout' could be declared final
+src/LiveAndDeath/UI.java:28:	AvoidInstantiatingObjectsInLoops: Avoid instantiating new objects inside loops
+src/LiveAndDeath/UI.java:28:	AvoidInstantiatingObjectsInLoops: Avoid instantiating new objects inside loops
+src/LiveAndDeath/UI.java:29:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/LiveAndDeath/UI.java:29:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/LiveAndDeath/UI.java:29:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/LiveAndDeath/UI.java:29:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/LiveAndDeath/UI.java:29:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/LiveAndDeath/UI.java:29:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/LiveAndDeath/UI.java:35:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/LiveAndDeath/UI.java:35:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/LiveAndDeath/UI.java:35:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/LiveAndDeath/UI.java:35:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/LiveAndDeath/UI.java:36:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/LiveAndDeath/UI.java:36:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/LiveAndDeath/UI.java:36:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/LiveAndDeath/UI.java:36:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/LiveAndDeath/UI.java:36:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/LiveAndDeath/UI.java:36:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/LiveAndDeath/UI.java:46:	CommentRequired: Public method and constructor comments are required
+src/LiveAndDeath/UI.java:46:	CommentRequired: Public method and constructor comments are required
+src/LiveAndDeath/UI.java:46:	MethodArgumentCouldBeFinal: Parameter 'm' is not assigned and could be declared final
+src/LiveAndDeath/UI.java:46:	MethodArgumentCouldBeFinal: Parameter 'm' is not assigned and could be declared final
+src/LiveAndDeath/UI.java:46:	ShortVariable: Avoid variables with short names like m
+src/LiveAndDeath/UI.java:46:	ShortVariable: Avoid variables with short names like m
+src/LiveAndDeath/UI.java:48:	EmptyStatementNotInLoop: An empty statement (semicolon) not part of a loop
+src/LiveAndDeath/UI.java:48:	EmptyStatementNotInLoop: An empty statement (semicolon) not part of a loop
+src/LiveAndDeath/UI.java:53:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/LiveAndDeath/UI.java:53:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/LiveAndDeath/UI.java:53:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/LiveAndDeath/UI.java:53:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/LiveAndDeath/UI.java:53:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/LiveAndDeath/UI.java:53:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/LiveAndDeath/UI.java:55:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/LiveAndDeath/UI.java:55:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/LiveAndDeath/UI.java:55:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/LiveAndDeath/UI.java:55:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/LiveAndDeath/UI.java:55:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/LiveAndDeath/UI.java:55:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/LiveAndDeath/UI.java:59:	EmptyStatementNotInLoop: An empty statement (semicolon) not part of a loop
+src/LiveAndDeath/UI.java:59:	EmptyStatementNotInLoop: An empty statement (semicolon) not part of a loop
+src/dos/ConsoleDemo.java:5:	CommentRequired: Class comments are required
+src/dos/ConsoleDemo.java:5:	CommentRequired: Class comments are required
+src/dos/ConsoleDemo.java:5:	UseUtilityClass: All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/dos/ConsoleDemo.java:5:	UseUtilityClass: All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/dos/ConsoleDemo.java:6:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the world field if you want a default access modifier
+src/dos/ConsoleDemo.java:6:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the world field if you want a default access modifier
+src/dos/ConsoleDemo.java:6:	CommentRequired: Field comments are required
+src/dos/ConsoleDemo.java:6:	CommentRequired: Field comments are required
+src/dos/ConsoleDemo.java:6:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/dos/ConsoleDemo.java:6:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/dos/ConsoleDemo.java:7:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the length field if you want a default access modifier
+src/dos/ConsoleDemo.java:7:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the length field if you want a default access modifier
+src/dos/ConsoleDemo.java:7:	CommentRequired: Field comments are required
+src/dos/ConsoleDemo.java:7:	CommentRequired: Field comments are required
+src/dos/ConsoleDemo.java:7:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/dos/ConsoleDemo.java:7:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/dos/ConsoleDemo.java:8:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the orgWorld field if you want a default access modifier
+src/dos/ConsoleDemo.java:8:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the orgWorld field if you want a default access modifier
+src/dos/ConsoleDemo.java:8:	CommentRequired: Field comments are required
+src/dos/ConsoleDemo.java:8:	CommentRequired: Field comments are required
+src/dos/ConsoleDemo.java:8:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/dos/ConsoleDemo.java:8:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/dos/ConsoleDemo.java:9:	CommentRequired: Public method and constructor comments are required
+src/dos/ConsoleDemo.java:9:	CommentRequired: Public method and constructor comments are required
+src/dos/ConsoleDemo.java:9:	MethodArgumentCouldBeFinal: Parameter 'args' is not assigned and could be declared final
+src/dos/ConsoleDemo.java:9:	MethodArgumentCouldBeFinal: Parameter 'args' is not assigned and could be declared final
