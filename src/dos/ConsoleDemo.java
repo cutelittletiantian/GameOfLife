@@ -7,7 +7,6 @@ public class ConsoleDemo {
 	static int length = 20;
 	static Boolean[][] orgWorld = new Boolean[length][length];
 	public static void main(String[] args) {
-		// TODO orgWorld ≥ı ºªØ
 		// ...
 		world.init(orgWorld);
 		while(true) {
